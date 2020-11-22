@@ -1,6 +1,6 @@
 // In case if I were to make changes to my code later on to my Navbar, then it will automaticly upload everything from this array.
 
-const MenuItems = [
+export const MenuItems = [
   {
     title: "Home-Page",
     url: "#",
@@ -22,5 +22,3 @@ const MenuItems = [
     clsname: "NavLink",
   },
 ];
-
-export const MenuItems;

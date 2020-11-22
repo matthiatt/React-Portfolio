@@ -2,12 +2,7 @@
 
 export const MenuItems = [
   {
-    title: "Home-Page",
-    url: "#",
-    clsname: "NavLink",
-  },
-  {
-    title: "Contact Me",
+    title: "Home",
     url: "#",
     clsname: "NavLink",
   },
@@ -17,8 +12,18 @@ export const MenuItems = [
     clsname: "NavLink",
   },
   {
+    title: "Contact Me",
+    url: "#",
+    clsname: "NavLink",
+  },
+  {
     title: "About Me",
     url: "#",
     clsname: "NavLink",
+  },
+  {
+    title: "Contact Me",
+    url: "#",
+    clsname: "NavLinkMobile",
   },
 ];

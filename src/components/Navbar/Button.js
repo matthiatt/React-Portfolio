@@ -1,5 +1,6 @@
 import "./ButtonStyles.css";
 // Got this from a tutorial //
+// Anytime this is added to the app.js - my app breaks. Everything compiles and is launched, but only a white screen.
 const STYLES = ["btn--primary", "btn--secondary"];
 
 const SIZE = ["btn--med", "btn--large"];

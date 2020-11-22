@@ -7,17 +7,12 @@ export const MenuItems = [
     clsname: "NavLink",
   },
   {
-    title: "Portfolio Work",
+    title: "Contact",
     url: "#",
     clsname: "NavLink",
   },
   {
-    title: "Contact Me",
-    url: "#",
-    clsname: "NavLink",
-  },
-  {
-    title: "About Me",
+    title: "About",
     url: "#",
     clsname: "NavLink",
   },

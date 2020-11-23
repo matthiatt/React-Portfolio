@@ -25,6 +25,7 @@ class Navbar extends Component {
             className={this.state.buttonClicked ? "fas fa-code" : "fas fa-bars"}
           ></i>
         </div>
+        {/* Making Icons to add more functionality to show when a button is clicked to have the drop down for the navbar. */}
         {/* Creating a 'ul' tag becuase I want my array's to return data within this area.  */}
         <ul className={this.state.buttonClicked ? "NavMenu active" : "NavMenu"}>
           {/* To successfully retrieve and retun the data, I must be able to search the data within the array, but in return a new array.*/}

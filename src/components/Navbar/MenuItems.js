@@ -3,7 +3,7 @@
 export const MenuItems = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     clsname: "NavLink",
   },
   {
@@ -17,6 +17,7 @@ export const MenuItems = [
     clsname: "NavLink",
   },
   {
+    // button for this is not working =( //
     title: "Contact Me",
     url: "#",
     clsname: "NavLinkMobile",

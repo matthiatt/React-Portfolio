@@ -17,14 +17,12 @@ class Navbar extends Component {
     return (
       <nav className="NavbarContent">
         <h1 className="NavbarLogo">
-          React<i className="fab fa-react"></i>
+          Matthew Hiatt<i className="fab fa-react"></i>
         </h1>
         {/* adding a menu "burger menu" with functionality. The 'fa' is refering to an import in the HTML link in public. For ref, I am using - fontawesome  */}
         <div className="MenuIcon" onClick={this.handleClick}>
           <i
-            className={
-              this.state.buttonClicked ? "far fa-stop-circle" : "fas fa-bars"
-            }
+            className={this.state.buttonClicked ? "fas fa-code" : "fas fa-bars"}
           ></i>
         </div>
         {/* Creating a 'ul' tag becuase I want my array's to return data within this area.  */}

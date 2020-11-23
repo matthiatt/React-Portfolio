@@ -5,11 +5,11 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: [
+      itemsArray: [
         {
           id: 0,
-          title: "Resume",
-          subTitle: "My Resume",
+          mainTitle: "Resume",
+          scdTitle: "My Resume",
           imgSrc: resume,
           link:
             "https://drive.google.com/drive/folders/1QmLrAIGDnjdX7Wrnn6QzQhv9yMFFPIn1?usp=sharing",
@@ -17,8 +17,8 @@ class Carousel extends React.Component {
         },
         {
           id: 1,
-          title: "Matthew Hiatt",
-          subTitle: "Github Account",
+          mainTitle: "Matthew Hiatt",
+          scdTitle: "Github Account",
           imgSrc: github,
           link: "https://github.com/matthiatt",
           selected: false,
@@ -26,4 +26,17 @@ class Carousel extends React.Component {
       ],
     };
   }
+  handleCardClick = (id) => {
+    let itemsArray = [...this.state.itemsArray];
+
+    itemsArray[id].selected = itemsArray[id].selected ? false : true;
+
+    itemsArray.forEach((objectItem) => {
+      if (objectItem.id !== id) {
+        objectItem.selected = false;
+      }
+    });
+  };
 }
+
+export default Carousel;

@@ -12,6 +12,7 @@ import Footer from "./components/Footer/footer";
 import Home from "./Pages/home";
 import About from "./Pages/about";
 import Contact from "./Pages/contact";
+import ProjectsPage from "./components/ProjectsPage/importProject";
 // import Button from "./components/Navbar/Button"; // Cant get this to render on my page.
 
 class App extends React.Component {
@@ -59,7 +60,6 @@ class App extends React.Component {
               {/* <Button /> */}
             </Navbar.Close>
           </Navbar>
-          <Title />
           <Route
             path="/"
             exact

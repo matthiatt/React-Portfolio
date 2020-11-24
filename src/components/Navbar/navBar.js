@@ -16,9 +16,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarContent">
-        <h1 className="NavbarLogo">
-          Matthew Hiatt<i className="fab fa-react"></i>
-        </h1>
+        <h1 className="NavbarLogo">Matthew Hiatt</h1>
         {/* adding a menu "burger menu" with functionality. The 'fa' is refering to an import in the HTML link in public. For ref, I am using - fontawesome  */}
         <div className="MenuIcon" onClick={this.handleClick}>
           <i
@@ -29,9 +27,9 @@ class Navbar extends Component {
         {/* Creating a 'ul' tag becuase I want my array's to return data within this area.  */}
         <ul className={this.state.buttonClicked ? "NavMenu active" : "NavMenu"}>
           {/* To successfully retrieve and retun the data, I must be able to search the data within the array, but in return a new array.*/}
-          {MenuItems.map((item, index) => {
+          {MenuItems.map((item, i) => {
             return (
-              <li key={index}>
+              <li key={i}>
                 {/* Linking my url href tag I want the property to move the user to. */}
                 <a className={item.clsname} href={item.url}>
                   {/* Since 'MenuItems' is called, I need to call the property - 'clsname.' */}

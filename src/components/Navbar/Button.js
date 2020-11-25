@@ -8,7 +8,7 @@ const SIZE = ["btn--med", "btn--large"];
 
 // Need to call all the data types within
 export const Button = ({
-  children, //#1
+  // children, //#1
   type, //#2
   onClick, //#3
   buttonStyle, //#4
@@ -28,7 +28,7 @@ export const Button = ({
       onClick={onClick}
       type={type}
     >
-      {children}
+      {/* {children} */}
     </Button>
   );
 };

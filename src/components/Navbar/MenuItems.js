@@ -13,7 +13,7 @@ export const MenuItems = [
   },
   {
     title: "About",
-    url: "#",
+    url: "http://localhost:3000/about",
     clsname: "NavLink",
   },
   {

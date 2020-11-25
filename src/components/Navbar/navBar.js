@@ -39,7 +39,6 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        {/* <Button>Press Me</Button> */}
       </nav>
     );
   }

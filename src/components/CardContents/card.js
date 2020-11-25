@@ -3,7 +3,10 @@ import CardInfo from "./cardInfo";
 
 function Card(props) {
   return (
-    <div className="inlineCards" onClick={() => props.click(props.objectItem)}>
+    <div
+      className="d-inline-block inlineCards"
+      onClick={() => props.click(props.objectItem)}
+    >
       <img
         className="cardImg"
         src={props.objectItem.imgSrc}

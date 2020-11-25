@@ -6,14 +6,14 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
-import Title from "./components/title";
+// import Title from "./components/title";
 import Navbar from "./components/Navbar/navBar";
 import Footer from "./components/Footer/footer";
 import Home from "./Pages/home";
 import About from "./Pages/about";
 import Contact from "./Pages/contact";
-import ProjectsPage from "./components/ProjectsPage/importProject";
-// import Button from "./components/Navbar/Button"; // Cant get this to render on my page.
+// import ProjectsPage from "./components/ProjectsPage/importProject";
+import Button from "./components/Navbar/Button"; // Cant get this to render on my page.
 
 class App extends React.Component {
   constructor(props) {
@@ -21,7 +21,8 @@ class App extends React.Component {
     this.state = {
       title: "Matthew Hiatt",
       headerLinks: [
-        { title: "Home", path: "/" },
+        { title: "Matthew Hiatt", path: "/" },
+        { title: "Home", path: "/home" },
         { title: "About", path: "/about" },
         { title: "Contact", path: "/contact" },
       ],
@@ -49,6 +50,9 @@ class App extends React.Component {
             <Navbar.Open className="border-3" aria-controls="navbarClick" />
             <Navbar.Close id="navbarClick">
               <Link className="navLink" to="/">
+                Matthew Hiatt
+              </Link>
+              <Link className="navLink" to="/home">
                 Home
               </Link>
               <Link className="navLink" to="/about">
@@ -57,9 +61,10 @@ class App extends React.Component {
               <Link className="navLink" to="/contact">
                 Contact
               </Link>
-              {/* <Button /> */}
+              <Button />
             </Navbar.Close>
           </Navbar>
+          {/* <ProjectsPage /> */}
           <Route
             path="/"
             exact
@@ -79,7 +84,6 @@ class App extends React.Component {
             path="/contact"
             render={() => <Contact mainTitle={this.state.contactMe.msg} />}
           />
-
           <Footer />
         </Container>
       </Router>

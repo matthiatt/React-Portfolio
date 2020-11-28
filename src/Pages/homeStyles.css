@@ -1,0 +1,9 @@
+.reactEffect {
+    font-size: var(--typing-font);
+    margin-bottom: 30px;
+}
+.profilepic {
+    border-radius: 50%;
+    width: 200px;
+    margin: 30px;
+}

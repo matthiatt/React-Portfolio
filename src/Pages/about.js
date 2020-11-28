@@ -1,16 +1,25 @@
-import React from "react";
-import ContentLink from "./contentLink";
+import React, { Component } from "react";
+import "./aboutStyles";
 
-function About() {
-  return (
-    <div>
-      <ContentLink>
+class About extends Component {
+  render() {
+    return (
+      <div className="containerDiv">
+        <h1 className="h1-topic">About Me</h1>
+        <h1>
+          GREAT! NOW I HAVE YOUR ATTENTION! That honestly means so much to me.
+          Here is a little bit more about me.
+        </h1>
+        <h3>
+          Full Stack Web <u>Developer</u>
+        </h3>
+        <br></br>
         <p>
-          Hello, my name is Matt. I'm a full stack engineer with 1+ years of
-          experience. I worked with code as an SEO content engineer for a year,
-          and then went back to get further education at Northwestern
-          University. I am experienced in HTML, JavaScript, CSS, AJAX, jQuery,
-          Express JS, Node JS, SQL, MongoDB, and React
+          I'm a full stack engineer with 1+ years of experience. I worked with
+          code as an SEO content engineer for a year, and then went back to get
+          further education at Northwestern University. I am experienced in
+          HTML, JavaScript, CSS, AJAX, jQuery, Express JS, Node JS, SQL,
+          MongoDB, and React
         </p>
 
         <p>
@@ -35,9 +44,9 @@ function About() {
           some Xbox games. Sidenote - I use Pluralsite a lot to learn about
           different code and how to use them the correct way.
         </p>
-      </ContentLink>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default About;

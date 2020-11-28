@@ -65,7 +65,7 @@ class Carousel extends React.Component {
       return (
         <Card
           objectItem={objectItem}
-          click={(event) => this.handleCardClick(objectItem.id, event)}
+          click={(e) => this.handleCardClick(objectItem.id, e)}
           key={objectItem.id}
         />
       );

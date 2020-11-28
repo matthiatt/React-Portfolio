@@ -8,7 +8,7 @@ export const MenuItems = [
   },
   {
     title: "Contact",
-    url: "#",
+    url: "http://localhost:3000/contact",
     clsname: "NavLink",
   },
   {
@@ -19,7 +19,7 @@ export const MenuItems = [
   {
     // button for this is not working =( //
     title: "Contact Me",
-    url: "#",
+    url: "http://localhost:3000/contact",
     clsname: "NavLinkMobile",
   },
 ];

@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./footerStyles.css";
+import SocialBar from "../Social/socialBar";
 
 function Footer() {
   return (
@@ -16,6 +17,7 @@ function Footer() {
             This site was made by Matthew Hiatt.
           </Col>
         </Row>
+        <SocialBar />
       </Container>
     </footer>
   );

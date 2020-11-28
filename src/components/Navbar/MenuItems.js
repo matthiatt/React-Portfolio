@@ -17,6 +17,21 @@ export const MenuItems = [
     clsname: "NavLink",
   },
   {
+    title: "Education",
+    url: "http://localhost:3000/education",
+    clsname: "NavLink",
+  },
+  {
+    title: "Skills",
+    url: "http://localhost:3000/skills",
+    clsname: "NavLink",
+  },
+  {
+    title: "Resume",
+    url: "http://localhost:3000/resume",
+    clsname: "NavLink",
+  },
+  {
     // button for this is not working =( //
     title: "Contact Me",
     url: "http://localhost:3000/contact",

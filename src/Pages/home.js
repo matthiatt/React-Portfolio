@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="containerDiv home">
         <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
         <ReactTypingEffect
-          className="reactEffect"
+          className="ReactTypingEffect"
           text={[
             "Hi there!",
             "My name is Matt Hiatt and I am looking for a career in fullstack development.",

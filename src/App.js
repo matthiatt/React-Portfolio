@@ -12,6 +12,7 @@ import Footer from "./components/Footer/footer";
 import Home from "./Pages/home";
 import About from "./Pages/about";
 import Contact from "./Pages/contact";
+import Education from "./Pages/education";
 import Button from "./components/Navbar/Button"; // Cant get this to render on my page.
 
 class App extends React.Component {
@@ -24,6 +25,9 @@ class App extends React.Component {
         { title: "Home", path: "/home" },
         { title: "About", path: "/about" },
         { title: "Contact", path: "/contact" },
+        { title: "Education", path: "/education" },
+        { title: "Skills", path: "/skills" },
+        { title: "Resume", path: "/resume" },
       ],
       homePage: {
         mainTitle: "Innovative, Creative, and Logistical Problem Solving",
@@ -59,6 +63,10 @@ class App extends React.Component {
               </Link>
               <Link className="navLink" to="/contact">
                 Contact
+              </Link>
+              <Link className="navLink" to="/education">
+                Education
+                <Education />
               </Link>
               <Button />
             </Navbar.Close>

@@ -26,11 +26,11 @@ export const MenuItems = [
     url: "http://localhost:3000/skills",
     clsname: "NavLink",
   },
-  {
-    title: "Resume",
-    url: "http://localhost:3000/resume",
-    clsname: "NavLink",
-  },
+  // {
+  //   title: "Resume",
+  //   url: "http://localhost:3000/resume",
+  //   clsname: "NavLink",
+  // },
   {
     // button for this is not working =( //
     title: "Contact Me",

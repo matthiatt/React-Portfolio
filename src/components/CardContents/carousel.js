@@ -1,5 +1,4 @@
 import React from "react";
-import resume from "../../assets/images/resumesmaller.jpg";
 import github from "../../assets/images/githubsmaller.jpg";
 import Card from "./card";
 import Container from "react-bootstrap/Container";
@@ -13,16 +12,6 @@ class Carousel extends React.Component {
       itemsArray: [
         {
           id: 0,
-          mainTitle: "Resume",
-          scdTitle: "My Resume",
-          // href: "src/assets/images/resume.jpg",
-          imgSrc: resume,
-          link:
-            "https://drive.google.com/drive/folders/1QmLrAIGDnjdX7Wrnn6QzQhv9yMFFPIn1?usp=sharing",
-          selected: false,
-        },
-        {
-          id: 1,
           mainTitle: "Matthew Hiatt",
           scdTitle: "Github Account",
           // href: "src/assets/images/github.jpg",
@@ -75,7 +64,8 @@ class Carousel extends React.Component {
   render() {
     return (
       <Container fluid={true}>
-        <Col sm="8" md={{ size: 6, offset: 3 }}>
+        <h1>Click the card here for my Github!</h1>
+        <Col md="10" md={{ size: 6, offset: 4 }}>
           {this.makeItems(this.state.itemsArray)}
         </Col>
       </Container>

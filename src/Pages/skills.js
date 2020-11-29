@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Carousel from "../components/CardContents/carousel";
 import "./skillsStyles.css";
 
 class Skills extends Component {
@@ -29,6 +30,7 @@ class Skills extends Component {
             return <li>{value}</li>;
           })}
         </ul>
+        <Carousel />
       </div>
     );
   }

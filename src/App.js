@@ -66,7 +66,6 @@ class App extends React.Component {
               </Link>
               <Link className="navLink" to="/education">
                 Education
-                <Education />
               </Link>
               <Button />
             </Navbar.Close>

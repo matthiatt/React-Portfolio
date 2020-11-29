@@ -5,3 +5,7 @@
     background-color: #f4f5f9;
     flex:var(--containerDiv-flex);
 }
+.h1-topic{
+    margin:10px 10px 30px 10px !important;
+    text-align: center;
+}

@@ -4,7 +4,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 
 import Title from "./components/title";
 import Navbar from "./components/Navbar/navBar";

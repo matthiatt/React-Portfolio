@@ -1,0 +1,17 @@
+.newFooter{
+    border-top: justify;
+    padding: 10px;
+}
+.colFooter{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.colFoot{
+    justify-content: flex-end;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}

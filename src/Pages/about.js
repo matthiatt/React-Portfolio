@@ -23,6 +23,10 @@ class About extends Component {
         </p>
 
         <p>
+          My background is mainly e-commerce technical fixes and/or to compile and analyze data based on the specific criteria that's needed.  I worked for Kiefer Aquatics for about a year and a half in the e-commerce department focuing on fixing Magento problems, SalesPad, and troublshooting with SalesForce.  Also while at Kiefer I had to compile and create reports based on specific criteria the sales team needed. I would provide quarterly data, monthly, and annual reports (depending on the request I would recieve.)
+        </p>
+
+        <p>
           My dream is to one day start my own business and become an
           entrepreneur. Right now, I am currently working on an e-commerce site
           called the Wire-Doctor. My moto in e-commerce is - if you're not
